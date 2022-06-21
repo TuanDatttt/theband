@@ -1,0 +1,87 @@
+
+#warpper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* Căn giữa modal-container */
+    background-color:   rgba(  0, 0, 0, 0.6);
+    align-items: center;
+    /* Nằm ngang */
+    justify-content: center;
+    display: none;
+    animation: modalFadeIn ease 0.5s;
+
+}
+#warpper.open{
+    display: flex;
+}
+
+.form-login{
+    background-color: #009688;
+    max-width: 600px;
+    color: #fff;
+    /* Giãn 2 bên */
+    flex-grow: 1;
+    padding: 16px 16px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(  255, 255, 255, 0.8);
+}
+.form-login .form-heading{
+    margin-bottom: 16px;
+}
+.form-login .form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+}
+.form-login .form-input{
+    font-size :16px;
+    padding: 8px 16px;
+    color: #fff;
+    border: 0;
+    background: transparent;
+    /* làm mờ form input */
+    outline: 0; 
+    width: 100%;   
+}
+.form-input::placeholder{
+    color: #fff;
+}
+.form-login .form-submit{
+    font-size :16px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    float:right;
+    margin-left:16px;
+}
+
+.form-login .form-submit:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.form-group .icon-eye{
+    padding-right: 0;
+    cursor: pointer;
+}
+.form-login .modal-close{
+    
+    float:right;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.form-login .modal-close:hover{
+    opacity: 1;
+}
+.form-login .modal-icon{
+    margin-right: 10px;
+}
+
+

@@ -1,0 +1,31 @@
+/* Giao diện PC */
+@media (min-width: 64em){
+}/* Giao diện Tablet */
+@media (max-width:63.9375em){
+    .mt-8{
+        margin-top: 8px !important;
+    }.mt-16{
+        margin-top: 16px !important;
+    }
+    #form-login .form-submit,
+    #form-login .form-input{  
+        padding: 12px 16px;
+    }
+    #form-login .form-input {
+        font-size: 24px;
+    }
+}
+/* Giao diện Mobile */
+@media (max-width:46.25em){
+    .mt-8{
+        margin-top: 8px !important;
+    }.mt-16{
+        margin-top: 16px !important;
+    }
+    #form-login .form-submit,
+    #form-login .form-input{  
+        padding: 12px 16px;
+    }
+    
+
+}
